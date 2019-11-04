@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="estilosCarrito.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+</head>
+<body>
+    <header>
+    <div class="contenedor">
+        <img class="icono" src="img/icono.png"> 
+        <h1>Grocery Store</h1>
+        <input type="checkbox" id="menu-bar">
+        <label class="fontawesome-align-justify" for="menu-bar"></label>
+               <nav class="menu">
+                    <a href="Principal.html">Principal</a>
+                    <a href="Productos.html">Productos</a>
+                    <a>Mi carrito</a>
+                    <a href="#">Articulos comprados</a>
+                    <a href="#" class="nombre"> </a>
+                    <a href="#"class="logout"><i class="fas fa-sign-out-alt"></i></a>
+
+                </nav>
+    </div>
+    </header> 
+    <div class="carrito">
+    	<div class="cart-products" id="cart-products">
+            <div class="info">
+                <div class="product-added">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="total">
+        <h2 style="padding-left: 15%;" class="total-price"></h2>
+    </div>
+    <div class="btn-pay">
+        <button class="pagar">Pagar</button>
+    </div>
+    <footer class="footer" >
+            <div class="contenedor">
+                <p class="copy"> Grocery Store &copy; 2019</p>
+                <div class="sociales">
+                    <a class="fontawesome-facebook-sign" href="#"></a>
+                    <a class="fontawesome-twitter" href="#"></a>
+                    <a class="fontawesome-camera-retro" href="#"></a>
+                    <a class="fontawesome-google-plus-sign" href="#"></a>
+                </div>
+            </div>
+    </footer>
+      <script src="js.js"></script>
+        <script>
+            init()
+            initCart()
+        </script>
+</body>
+</html>
